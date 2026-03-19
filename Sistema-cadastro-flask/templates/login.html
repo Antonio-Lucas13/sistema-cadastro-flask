@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'form.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'button.css')}}"
+    />
+    <title>Cadastro de usuario</title>
+  </head>
+  <body>
+    <div class="form-login">
+      <h2>Login</h2>
+      <form method="POST">
+        Email:
+        <input type="email" name="email" required /><br /><br />
+
+        Senha:
+        <input type="password" name="senha" required/><br /><br />
+
+        <button type="submit">Login</button>
+      </form>
+      <a href="/cadastro">Clique aqui para cadastrar funcionario</a>
+    </div>
+  </body>
+</html>

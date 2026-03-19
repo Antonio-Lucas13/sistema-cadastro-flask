@@ -1,0 +1,69 @@
+/* CSS DO BUTTON DO LOGIN */
+
+.form-login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #84a98c;
+  color: #2d3436;
+  border: 1px solid #cad2c5;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.form-login button:hover {
+  transition: 500ms;
+  background-color: #52796f;
+}
+
+/* CSS DO BUTTON DO CADASTRO DE FUNCIONARIO*/
+
+.form-cadastro button {
+  width: 100%;
+  padding: 10px;
+  background-color: #84a98c;
+  color: #2d3436;
+  border: 1px solid #cad2c5;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.form-cadastro button:hover {
+  transition: 500ms;
+  background-color: #52796f;
+}
+
+/* CSS DO BUTTON DO CADASTRO DE CLIENTE*/
+.form-cliente button {
+  width: 100%;
+  padding: 10px;
+  background-color: #84a98c;
+  color: #2d3436;
+  border: 1px solid #cad2c5;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.form-cliente button:hover {
+  transition: 500ms;
+  background-color: #52796f;
+}
+
+/* CSS DO BUTTON DO CADASTRO DE FORNECEDOR*/
+.form-fornecedor button {
+  width: 100%;
+  padding: 10px;
+  background-color: #84a98c;
+  color: #2d3436;
+  border: 1px solid #cad2c5;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.form-fornecedor button:hover {
+  transition: 500ms;
+  background-color: #52796f;
+}

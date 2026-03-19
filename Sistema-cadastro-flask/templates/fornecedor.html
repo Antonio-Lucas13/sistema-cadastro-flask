@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="{{ url_for('static', filename = 'form.css')}}" />
+<link rel="stylesheet" href="{{ url_for('static', filename = 'button.css')}}" />
+
+<div class="form-fornecedor">
+      <h2>Cadastrar Fornecedor</h2>
+      <form method="POST">
+        Empresa:
+        <input type="text" name="empresa" /><br /><br />
+
+        Email:
+        <input type="email" name="email" /><br /><br />
+
+        Telefone:
+        <input type="text" name="telefone" /> <br /> <br />
+
+        Endereço:
+        <input type="text" name="endereco" /> <br /> <br />
+
+        Estado:
+        <input type="text" name="estado" /> <br /> <br />
+
+        Pedido:
+        <input type="text" name="pedido" /> <br /> <br />
+
+        Quantidade:
+        <input type="number" name="quantidade" /> <br /> <br />
+
+        <button type="submit">Cadastrar</button>
+        <a href="/painel"> Voltar</a>
+      </form>
+      </div>
