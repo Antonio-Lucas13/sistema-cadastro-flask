@@ -19,6 +19,7 @@ Sistema web de cadastro desenvolvido com Python e Flask, integrando interface em
 	•	HTML
 	•	CSS
 	•	MySQL (XAMPP)
+	
 ⸻
 
 🗄️ Configuração do Banco de Dados
